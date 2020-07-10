@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A040AAD24B7894000CD1CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A040AAC24B7894000CD1CAD /* AppDelegate.swift */; };
+		6A040AAF24B7894000CD1CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A040AAE24B7894000CD1CAD /* SceneDelegate.swift */; };
+		6A040AB124B7894000CD1CAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A040AB024B7894000CD1CAD /* ContentView.swift */; };
+		6A040AB324B7894100CD1CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A040AB224B7894100CD1CAD /* Assets.xcassets */; };
+		6A040AB624B7894100CD1CAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A040AB524B7894100CD1CAD /* Preview Assets.xcassets */; };
+		6A040AB924B7894100CD1CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A040AB724B7894100CD1CAD /* LaunchScreen.storyboard */; };
+		6A040AC124B789E500CD1CAD /* d692f6a5-413e-4da4-a26c-5d102b03b9e9_200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A040AC024B789E400CD1CAD /* d692f6a5-413e-4da4-a26c-5d102b03b9e9_200x200.png */; };
+		6A040AC524B78B9B00CD1CAD /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A040AC424B78B9B00CD1CAD /* AudioRecorder.swift */; };
+		6A040AC724B7932700CD1CAD /* RecordingsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A040AC624B7932700CD1CAD /* RecordingsList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A040AA924B7894000CD1CAD /* meetingAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meetingAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A040AAC24B7894000CD1CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A040AAE24B7894000CD1CAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6A040AB024B7894000CD1CAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A040AB224B7894100CD1CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A040AB524B7894100CD1CAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A040AB824B7894100CD1CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A040ABA24B7894100CD1CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A040AC024B789E400CD1CAD /* d692f6a5-413e-4da4-a26c-5d102b03b9e9_200x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d692f6a5-413e-4da4-a26c-5d102b03b9e9_200x200.png"; sourceTree = "<group>"; };
+		6A040AC424B78B9B00CD1CAD /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		6A040AC624B7932700CD1CAD /* RecordingsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A040AA624B7894000CD1CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A040AA024B7894000CD1CAD = {
+			isa = PBXGroup;
+			children = (
+				6A040AAB24B7894000CD1CAD /* meetingAI */,
+				6A040AAA24B7894000CD1CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A040AAA24B7894000CD1CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A040AA924B7894000CD1CAD /* meetingAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A040AAB24B7894000CD1CAD /* meetingAI */ = {
+			isa = PBXGroup;
+			children = (
+				6A040AC424B78B9B00CD1CAD /* AudioRecorder.swift */,
+				6A040AC024B789E400CD1CAD /* d692f6a5-413e-4da4-a26c-5d102b03b9e9_200x200.png */,
+				6A040AAC24B7894000CD1CAD /* AppDelegate.swift */,
+				6A040AAE24B7894000CD1CAD /* SceneDelegate.swift */,
+				6A040AB024B7894000CD1CAD /* ContentView.swift */,
+				6A040AC624B7932700CD1CAD /* RecordingsList.swift */,
+				6A040AB224B7894100CD1CAD /* Assets.xcassets */,
+				6A040AB724B7894100CD1CAD /* LaunchScreen.storyboard */,
+				6A040ABA24B7894100CD1CAD /* Info.plist */,
+				6A040AB424B7894100CD1CAD /* Preview Content */,
+			);
+			path = meetingAI;
+			sourceTree = "<group>";
+		};
+		6A040AB424B7894100CD1CAD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A040AB524B7894100CD1CAD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A040AA824B7894000CD1CAD /* meetingAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A040ABD24B7894100CD1CAD /* Build configuration list for PBXNativeTarget "meetingAI" */;
+			buildPhases = (
+				6A040AA524B7894000CD1CAD /* Sources */,
+				6A040AA624B7894000CD1CAD /* Frameworks */,
+				6A040AA724B7894000CD1CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meetingAI;
+			productName = meetingAI;
+			productReference = 6A040AA924B7894000CD1CAD /* meetingAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A040AA124B7894000CD1CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Shrey Jain";
+				TargetAttributes = {
+					6A040AA824B7894000CD1CAD = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6A040AA424B7894000CD1CAD /* Build configuration list for PBXProject "meetingAI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A040AA024B7894000CD1CAD;
+			productRefGroup = 6A040AAA24B7894000CD1CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A040AA824B7894000CD1CAD /* meetingAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A040AA724B7894000CD1CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A040AB924B7894100CD1CAD /* LaunchScreen.storyboard in Resources */,
+				6A040AC124B789E500CD1CAD /* d692f6a5-413e-4da4-a26c-5d102b03b9e9_200x200.png in Resources */,
+				6A040AB624B7894100CD1CAD /* Preview Assets.xcassets in Resources */,
+				6A040AB324B7894100CD1CAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A040AA524B7894000CD1CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A040AAD24B7894000CD1CAD /* AppDelegate.swift in Sources */,
+				6A040AAF24B7894000CD1CAD /* SceneDelegate.swift in Sources */,
+				6A040AC724B7932700CD1CAD /* RecordingsList.swift in Sources */,
+				6A040AC524B78B9B00CD1CAD /* AudioRecorder.swift in Sources */,
+				6A040AB124B7894000CD1CAD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A040AB724B7894100CD1CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A040AB824B7894100CD1CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A040ABB24B7894100CD1CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A040ABC24B7894100CD1CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A040ABE24B7894100CD1CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"meetingAI/Preview Content\"";
+				DEVELOPMENT_TEAM = HB5WUW35LQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = meetingAI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sh.meetingAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A040ABF24B7894100CD1CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"meetingAI/Preview Content\"";
+				DEVELOPMENT_TEAM = HB5WUW35LQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = meetingAI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sh.meetingAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A040AA424B7894000CD1CAD /* Build configuration list for PBXProject "meetingAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A040ABB24B7894100CD1CAD /* Debug */,
+				6A040ABC24B7894100CD1CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A040ABD24B7894100CD1CAD /* Build configuration list for PBXNativeTarget "meetingAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A040ABE24B7894100CD1CAD /* Debug */,
+				6A040ABF24B7894100CD1CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A040AA124B7894000CD1CAD /* Project object */;
+}

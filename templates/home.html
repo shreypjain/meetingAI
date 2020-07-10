@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Transcriber</title>
+  <img src="../d692f6a5-413e-4da4-a26c-5d102b03b9e9_200x200.png">
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+</head>
+<body>
+  <div class="container">
+    <form class="form" method="POST" enctype="multipart/form-data">
+      <div class="file-upload-wrapper" data-text="Select your audio file!">
+        <input type=file name=file>
+      </div>
+      <input type=submit value=Upload>
+    </form>
+  </div>
+</body>
+</html>
