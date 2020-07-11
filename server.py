@@ -31,18 +31,7 @@ def upload_file():
             filename = secure_filename(file.filename)
             full_name = os.path.join(app.config['UPLOAD_FOLDER'], filename)
             file.save(full_name)
-            #return get_full_translation(f'{full_name}')
-            return '''<p>
-            <br>Speaker 1: My name is Christian Demarcowitz. What is your name?<br>
-            <br>Speaker 2: My name is Shray, its truly nice to meet you!</br>
-            <br>Speaker 1: I come from 17 years in the future. I love eating termites!</br>
-            <br>Speaker 2: Why do you eat termites for fun?</br>
-            <br>Speaker 1: Cause they taste so juicy man. I wish you could.</br>
-            <br>Speaker 2: Whats so juicy about termites?</br>
-            <br>Speaker 1: Dude the legs, bro theyre amazing!</br>
-            <br>Speaker 2: Thank you for this conversation.</br>
-            <br>Speaker 1: They are amazing.</br>
-            <br>Speaker 2: I agree.</br></p>'''
+            return get_full_translation(f'{full_name}')
     return render_template('home.html')
 
 from flask import send_from_directory
